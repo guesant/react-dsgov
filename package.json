@@ -1,8 +1,8 @@
 {
-  "name": "react-dsgov",
+  "name": "@guesant/react-dsgov",
   "description": "Componentes React do DSGov (Padrão Digital do Governo).",
   "author": "cosis-stn",
-  "version": "0.7.1",
+  "version": "0.7.2-beta.1",
   "private": false,
   "types": "dist/index.d.ts",
   "repository": {
@@ -29,9 +29,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@govbr-ds/core": "^3.0.1",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "babel-plugin-react-css-modules": "^5.2.6",
     "classnames": "^2.3.1",
     "font-awesome": "^4.7.0",
     "lodash.uniqueid": "^4.0.1",
@@ -39,10 +36,6 @@
     "react-fontawesome": "^1.7.1",
     "react-lorem-ipsum": "^1.4.10",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1",
-    "sass": "^1.54.3",
-    "ts-loader": "^9.3.1",
-    "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -82,6 +75,13 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.54.3",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
     "@babel/cli": "^7.18.9",
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
